@@ -9,3 +9,5 @@ docker run -d \
   -e TZ=Etc/UTC \
   -v webtop-config:/config \
   lscr.io/linuxserver/webtop:ubuntu-xfce
+
+https://labs.iximiuz.com/dashboard#daily
