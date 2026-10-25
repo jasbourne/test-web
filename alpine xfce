@@ -1,0 +1,7 @@
+docker run -d \
+  --name=webtop \
+  --shm-size=1gb \
+  -p 3001:3001 \
+  -v webtop-config:/config \
+  --restart unless-stopped \
+  lscr.io/linuxserver/webtop:latest
